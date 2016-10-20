@@ -3,11 +3,13 @@
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
+var cors = require('cors');
 var _ = require('lodash');
 var dinos = require('./dinosaurs.json');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(cors());
 
 app.get('/api/dinosaurs', function(req, res) {
 	res.json(dinos);

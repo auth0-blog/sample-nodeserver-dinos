@@ -11,7 +11,7 @@ A small sample [nodejs](http://nodejs.org) server with dinosaurs!
 
 The following public `GET` requests are currently available:
 
-`GET` Route: `/api/dinosaurs` returns an array of dinosaur names with pronunciations, ie:
+`GET` Route: `/api/dinosaurs` returns an array of dinosaur objects with IDs, names, and pronunciations, ie:
 
 ```
 ...
@@ -23,7 +23,7 @@ The following public `GET` requests are currently available:
 ...
 ```
 
-`GET` Route: `/api/dinosaur/:id` returns an object with dinosaur details, ie:
+`GET` Route: `/api/dinosaur/:id` returns an object with a single dinosaur's details, ie:
 
 ```
 {
@@ -38,3 +38,5 @@ The following public `GET` requests are currently available:
 	"info": "<em>Dracorex hogwartsia</em> was discovered in the Hell Creek Formation in South Dakota and donated to the Children's Museum of Indianapolis in 2004. Its name was inspired by J.K. Rowling's Harry Potter series and the young visitors to the children's museum where it was displayed."
 }
 ```
+
+MIT license

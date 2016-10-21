@@ -6,6 +6,7 @@ var bodyParser = require('body-parser');
 var cors = require('cors');
 var _ = require('lodash');
 var dinos = require('./dinosaurs.json');
+var dinoDetail = require('./dinosaurs-detail.json');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -17,7 +18,7 @@ app.get('/api/dinosaurs', function(req, res) {
 
 app.get('/api/dinosaur/:id', function(req,res) {
 	var id = req.params.id * 1;
-	var thisDino = _.find(dinos, { id: id });
+	var thisDino = _.find(dinoDetail, { id: id });
 	res.json(thisDino);
 });
 

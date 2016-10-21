@@ -1,97 +1,78 @@
 [
 	{
 		"id": 1,
-		"name": "Allosaurus",
-		"pronunciation": "AL-oh-sore-us"
+		"name": "Allosaurus"
 	},
 	{
 		"id": 2,
-		"name": "Apatosaurus",
-		"pronunciation": "ah-PAT-oh-sore-us"
+		"name": "Apatosaurus"
 	},
 	{
 		"id": 3,
-		"name": "Brachiosaurus",
-		"pronunciation": "BRAK-ee-oh-sore-us"
+		"name": "Brachiosaurus"
 	},
 	{
 		"id": 4,
-		"name": "Compsognathus",
-		"pronunciation": "komp-sog-NATH-us"
+		"name": "Compsognathus"
 	},
 	{
 		"id": 5,
-		"name": "Dracorex",
-		"pronunciation": "dray-ko-rex"
+		"name": "Dracorex"
 	},
 	{
 		"id": 6,
-		"name": "Elasmosaurus",
-		"pronunciation": "ee-LAZ-mo-sore-us"
+		"name": "Elasmosaurus"
 	},
 	{
 		"id": 7,
-		"name": "Giraffatitan",
-		"pronunciation": "ji-raf-e-tie-tan"
+		"name": "Giraffatitan"
 	},
 	{
 		"id": 8,
-		"name": "Indosuchus",
-		"pronunciation": "in-doh-sook-us"
+		"name": "Indosuchus"
 	},
 	{
 		"id": 9,
-		"name": "Jingshanosaurus",
-		"pronunciation": "jing-shahn-oh-sore-us"
+		"name": "Jingshanosaurus"
 	},
 	{
 		"id": 10,
-		"name": "Khaan",
-		"pronunciation": "kahn"
+		"name": "Khaan"
 	},
 	{
 		"id": 11,
-		"name": "Minmi",
-		"pronunciation": "min-mie"
+		"name": "Minmi"
 	},
 	{
 		"id": 12,
-		"name": "Ouranosaurus",
-		"pronunciation": "oo-RAH-noh-sore-us"
+		"name": "Ouranosaurus"
 	},
 	{
 		"id": 13,
-		"name": "Parasaurolophus",
-		"pronunciation": "PARR-eh-saw-ROL-off-us / PARR-eh-sawr-eh-LOH-fus"
+		"name": "Parasaurolophus"
 	},
 	{
 		"id": 14,
-		"name": "Spinosaurus",
-		"pronunciation": "SPINE-oh-SORE-us"
+		"name": "Spinosaurus"
 	},
 	{
 		"id": 15,
-		"name": "Tyrannosaurus",
-		"pronunciation": "tie-RAN-oh-sore-us"
+		"name": "Tyrannosaurus"
 	},
 	{
 		"id": 16,
-		"name": "Utahraptor",
-		"pronunciation": "YOO-tah-RAP-tor"
+		"name": "Utahraptor"
 	},
 	{
 		"id": 17,
-		"name": "Vulcanodon",
-		"pronunciation": "vul-ka-oh-don"
+		"name": "Vulcanodon"
 	},
 	{
 		"id": 18,
-		"name": "Xenoceratops",
-		"pronunciation": "ZEE-no-SEH-ruh-tops"
+		"name": "Xenoceratops"
 	},
 	{
 		"id": 19,
-		"name": "Zephyrosaurus",
-		"pronunciation": "ZEF-ear-ro-SORE-us"
+		"name": "Zephyrosaurus"
 	}
 ]

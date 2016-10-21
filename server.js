@@ -22,20 +22,5 @@ app.get('/api/dinosaur/:id', function(req,res) {
 	res.json(thisDino);
 });
 
-app.get('/api/dinosaurs/carnivores', function(req,res) {
-	var carnivores = _.filter(dinos, { diet: 'carnivorous' });
-	res.json(carnivores);
-});
-
-app.get('/api/dinosaurs/omnivores', function(req,res) {
-	var omnivores = _.filter(dinos, { diet: 'omnivorous' });
-	res.json(omnivores);
-});
-
-app.get('/api/dinosaurs/herbivores', function(req,res) {
-	var herbivores = _.filter(dinos, { diet: 'herbivorous' });
-	res.json(herbivores);
-});
-
 app.listen(3001);
 console.log('Listening on localhost:3001');

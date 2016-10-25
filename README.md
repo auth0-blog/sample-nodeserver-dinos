@@ -22,7 +22,7 @@ The following public `GET` requests are currently available:
 ...
 ```
 
-`GET` Route: `/api/dinosaur/:id` returns an object with a single dinosaur's details, ie:
+`GET` Route: `/api/dinosaur/:id` returns an object with a single dinosaur's expanded details, ie:
 
 ```
 {

@@ -11,7 +11,9 @@ A small sample [nodejs](http://nodejs.org) server with dinosaurs!
 
 The following public `GET` requests are currently available:
 
-`GET` Route: `/api/dinosaurs` returns an array of dinosaur objects with IDs and names, ie:
+### `/api/dinosaurs`
+
+`GET`: returns an array of simple dinosaur objects with `id`s and `name`s, ie:
 
 ```
 ...
@@ -19,10 +21,16 @@ The following public `GET` requests are currently available:
 	"id": 5,
 	"name": "Dracorex"
 },
+{
+	"id": 6,
+	"name": "Elasmosaurus"
+}
 ...
 ```
 
-`GET` Route: `/api/dinosaur/:id` returns an object with a single dinosaur's expanded details, ie:
+### `/api/dinosaur/:id`
+
+`GET`: returns an object with a dinosaur's expanded details, ie:
 
 ```
 {

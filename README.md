@@ -4,8 +4,10 @@ A small sample [nodejs](http://nodejs.org) server with dinosaurs!
 
 ## Setup and Usage
 
-1. `npm install` from root
-2. `npm start` launches the node server on [http://localhost:3001](http://localhost:3001)
+1. Make sure [NodeJS (with npm)](http://nodejs.org) is installed.
+2. Clone or download this repository to a directory of your choice.
+3. Run the command `npm install` from the project root directory.
+4. Executing `npm start` launches the node server on [http://localhost:3001](http://localhost:3001).
 
 ## Routes
 
